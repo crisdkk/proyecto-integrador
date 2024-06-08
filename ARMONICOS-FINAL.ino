@@ -2,8 +2,8 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "Julian Jurado";
-const char* password = "Julian02";
+const char* ssid = "red wifi a usar";
+const char* password = "contraseña wifi";
 const char* serverName = "http://cygnus.uniajc.edu.co/proyecto1/embebidos/ARMONICOS-CRISDKK/brokersub.php";
 
 const int portPin = 21; // lectura del voltaje en el pin
