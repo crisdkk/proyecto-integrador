@@ -40,10 +40,10 @@
 
     <?php
     // Datos de conexión a la base de datos
-    $servername = "mysqlalexis";
-    $username = "estudiante";
-    $password = "univalle";
-    $dbname = "embebidos";
+    $servername = "servidor";
+    $username = "usuario servidor";
+    $password = "contaseña servidor";
+    $dbname = "nombre base de datos";
 
     // Crear conexión a la base de datos
     $conn = new mysqli($servername, $username, $password, $dbname);
@@ -54,7 +54,7 @@
     }
 
     // Consulta SQL para obtener los últimos 20 registros de la tabla
-    $sql = "SELECT * FROM `armonicos-cris` ORDER BY fecha DESC LIMIT 20";
+    $sql = "SELECT * FROM `nombre de la tabla` ORDER BY fecha DESC LIMIT 20";
     $result = $conn->query($sql);
 
     // Verificar si se obtuvieron resultados
