@@ -4,7 +4,7 @@
 
 const char* ssid = "red wifi a usar";
 const char* password = "contraseña wifi";
-const char* serverName = "http://cygnus.uniajc.edu.co/proyecto1/embebidos/ARMONICOS-CRISDKK/brokersub.php";
+const char* serverName = "servidor donde mandar los datos";
 
 const int portPin = 21; // lectura del voltaje en el pin
 int potValor = 0;    
